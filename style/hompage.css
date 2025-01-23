@@ -1,0 +1,405 @@
+main {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  transition: 2s;
+}
+main #showme {
+  width: 200px;
+  height: 50px;
+  outline: none;
+  border-radius: 8px;
+  position: relative;
+  left: 20px;
+  font-size: 15px;
+}
+main #showme:hover {
+  font-size: 19px;
+  transition: 2s;
+  box-shadow: 0 12px 12px 2px rgba(0, 0, 0, 0.78);
+}
+main #backtome {
+  display: none;
+  width: 200px;
+  height: 50px;
+  outline: none;
+  border-radius: 8px;
+  position: relative;
+  left: 20px;
+  font-size: 15px;
+}
+main #backtome:hover {
+  font-size: 19px;
+  transition: 2s;
+  box-shadow: 0 12px 12px 2px rgba(0, 0, 0, 0.78);
+}
+main .main_banner {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+}
+main .main_banner .banner {
+  height: 1200px;
+  background-image: url("https://static.wixstatic.com/media/46dc18_0998a8ce1f34483cbe31aec42ff6108f~mv2.jpg/v1/fill/w_881,h_853,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/46dc18_0998a8ce1f34483cbe31aec42ff6108f~mv2.jpg");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  object-fit: cover;
+  background-attachment: fixed;
+  background-position: right;
+}
+main .made_with_love {
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: wheat;
+  padding: 15px;
+}
+main .made_with_love .left {
+  width: 100%;
+  height: 100%;
+}
+main .made_with_love .left .content {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding-top: 400px;
+}
+main .made_with_love .left .content .head_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: auto;
+}
+main .made_with_love .left .content .secont_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 700px;
+  padding-top: 100px;
+  line-height: 40px;
+  color: black;
+}
+main .made_with_love .left .content .btn {
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  position: relative;
+}
+main .made_with_love .left .content .btn a {
+  width: 100%;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+main .made_with_love .right {
+  width: 100%;
+  height: 100%;
+}
+main .made_with_love .right .aside-banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://static.wixstatic.com/media/46dc18_3487b934a84548e090e13f5ce1bf08ad~mv2.jpg/v1/fill/w_855,h_1200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/46dc18_3487b934a84548e090e13f5ce1bf08ad~mv2.jpg");
+  background-repeat: no-repeat;
+}
+main .ingredients_table {
+  width: 100%;
+  height: 100%;
+}
+main .ingredients_table .ingredients_banner {
+  background-size: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
+  background-attachment: fixed;
+  background-image: url("https://static.wixstatic.com/media/46dc18_129ba04ade8a4cf3962ccb05b35e57c7~mv2.jpg/v1/fill/w_981,h_880,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/46dc18_129ba04ade8a4cf3962ccb05b35e57c7~mv2.jpg");
+}
+main .ingredients_table .ingredients_banner .ingredients {
+  width: 75%;
+  background-color: rgb(242, 242, 242);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 35%;
+  border-radius: 8px;
+}
+main .ingredients_table .ingredients_banner .ingredients .context {
+  width: 100%;
+  height: 100%;
+}
+main .ingredients_table .ingredients_banner .ingredients .context h2 {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 80px;
+}
+main .ingredients_table .ingredients_banner .ingredients .context h6 {
+  font-size: 20px;
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 50px;
+  line-height: 30px;
+  letter-spacing: 0.1rem;
+  font-family: cursive;
+  text-align: start;
+}
+main .ingredients_table .ingredients_banner .ingredients .context .btn {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+main .ingredients_table .ingredients_banner .ingredients .context .btn a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+main h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+main h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 10px;
+  color: rgb(48, 9, 9);
+}
+main h5 {
+  color: red;
+  padding-left: 10px;
+}
+main .category {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  margin: auto;
+  padding-top: 150px;
+}
+main .category .category_prdoucts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 30px;
+}
+main .category .category_prdoucts .target {
+  background: blue;
+  width: 100px;
+  height: 50px !important;
+  margin-top: 20px;
+  margin: auto;
+  border: none;
+  border-bottom: 2px solid blue;
+  border-radius: 8px;
+  position: relative;
+  top: -20px;
+}
+main .category .category_prdoucts .target .targetplius {
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  height: 50px;
+}
+main .category .category_prdoucts .card {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: none !important;
+  background-color: rgb(251, 251, 251);
+  box-shadow: 10px 10px 12px -12px rgba(0, 0, 0, 0.78);
+}
+main .category .category_prdoucts .card:hover {
+  box-shadow: 12px 12px 12px 1px rgba(41, 42, 42, 0.99);
+  transition: 2s ease;
+  cursor: pointer;
+}
+main .category .category_prdoucts .card img {
+  width: 400px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+main .category .category_prdoucts .card .card-title {
+  color: red;
+  font-weight: bold;
+}
+main .category .category_prdoucts .card .product-description {
+  font-size: 15px;
+  font-weight: bold;
+  font-variant: initial;
+}
+main .full-screen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  /* Hide the overlay by default */
+}
+main .full-screen-overlay.active {
+  display: block;
+  /* Show the overlay when active */
+}
+main .product-details {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  height: 60%;
+  overflow-y: scroll;
+}
+main .product-details #img {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+main .product-details .card-title {
+  font-size: 25px;
+  color: rgb(255, 8, 8);
+  padding-top: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+main .product-details .product-description {
+  padding-top: 30px;
+  padding: 20px 20px 20px 20px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  max-width: 600px;
+  margin: auto;
+}
+main .product-details .targetplius {
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  height: 50px;
+  background: black;
+  max-width: 100px;
+  margin: auto;
+  border-radius: 8px;
+}
+main .close-overlay {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  cursor: pointer;
+}
+main .close-overlay h3 {
+  width: 100%;
+  height: 100%;
+  font-size: 19px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  height: 500px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 80px;
+}
+footer .section div {
+  margin: auto;
+  gap: 15px;
+}
+footer .section div .head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+footer .section div .sec_text {
+  padding-top: 40px;
+  font-size: 20px;
+}
+footer .line {
+  width: 80%;
+  height: 2px;
+  display: block;
+  background-color: white;
+  margin: auto;
+  position: relative;
+  top: 20%;
+}
+footer .socilas {
+  width: 100%;
+  height: 110px;
+  padding-top: 150px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+footer .socilas a {
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=hompage.css.map */

@@ -1,0 +1,285 @@
+// login form responsive
+
+@media screen and (max-width: 1150px) {
+    .login .form .register {
+        font-size: 25px !important;
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width: 1430px) {
+    .login {
+        .form {
+            width: 40%;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .login {
+        .form {
+            width: 60%;
+
+            .register {
+                font-size: 23px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 530px) {
+    .login {
+
+        .form {
+            width: 80%;
+            margin-top: 20px !important;
+
+            .register {
+                font-size: 17px;
+            }
+
+        }
+    }
+}
+
+
+// intruction resopnsive
+
+@media screen and (max-width: 1300px) {
+    .login {
+        .intruction {
+            .instruct {
+                .intuctionkub {
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .login {
+        .intruction {
+            .instruct {
+                .intuctionkub {
+                    .intuctiontext {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .login {
+        .intruction {
+            .instruct {
+                .intuctionkub {
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+// login form responsive\
+
+
+
+
+@media screen and (max-width: 1635px) {
+    main .products {
+        display: grid;
+        grid-template-columns: repeat(2, 4fr) !important;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    main .products {
+        display: grid;
+        grid-template-columns: repeat(1, 4fr) !important;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    main .products {
+        .product {
+            padding: 0px 10px 0px 10px;
+
+            .card {
+                img {
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+// menu responcive
+
+@media screen and (max-width:1100px) {
+    .Meals .meal-display {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .Meals .search-invetary .search-container #search_input {
+        width: 60%;
+    }
+
+    .Meals .search-invetary .search-container #search_buuton {
+        right: 24px;
+    }
+}
+
+
+@media screen and (max-width:570px) {
+
+    .Meals .search-invetary .search-container #search_input {
+        width: 90%;
+        margin: auto;
+        display: flex;
+    }
+
+    .Meals .search-invetary .title {
+        font-size: 25px;
+        margin: auto;
+        text-align: center;
+    }
+
+}
+
+
+
+@media screen and (max-width:880px) {
+    .Meals .search-invetary .title {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .Meals .meal-display {
+        max-width: 90%;
+    }
+
+}
+
+
+@media screen and (max-width:700px) {
+    .Meals .search-invetary .title {
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:670px) {
+    .Meals .meal-display {
+        grid-template-columns: 1fr;
+    }
+
+    .Meals .meal-display .meal_card {
+        margin: auto;
+    }
+}
+
+
+
+// footer resopnsive
+
+
+@media screen and (max-width: 800px) {
+    footer {
+        .section {
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+    }
+}
+
+
+
+
+// footer resopnsive
+
+
+
+
+// resevation form responsive
+
+@media screen and (max-width: 1200px) {
+    #sectionofreservation {
+        .col-md-6 {
+            width: 60% !important;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .main_two #sectionofreservation .col-md-6 {
+            width: 100% !important;
+            padding: 15px;
+        }
+
+    }
+}
+
+
+
+// resevation form responsive
+
+
+
+
+
+// date and time
+
+@media screen and (max-width: 920px) {
+    .main_two .clock #time {
+        font-size: 70px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .main_two .clock #time {
+            font-size: 40px;
+        }
+    }
+
+    @media screen and (max-width: 655px) {
+        .main_two .clock #time {
+            font-size: 50px;
+            letter-spacing: 10px;
+        }
+    }
+}
+
+// date and time\
+
+
+
+@media screen and (max-width: 992px) {
+    header .navbar .container-fluid .collapse ul #sing-out {
+
+        bottom: 0;
+        right: 6px;
+
+    }
+}

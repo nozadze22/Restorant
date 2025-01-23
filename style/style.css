@@ -1,0 +1,425 @@
+* {
+  font-family: "Crimson Text", system-ui;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+}
+header .navbar {
+  width: 100% !important;
+  background-color: rgb(237, 236, 236) !important;
+  position: fixed;
+  z-index: 1;
+}
+header .navbar .container-fluid {
+  width: 100%;
+}
+header .navbar .container-fluid .collapse ul {
+  height: 100%;
+}
+header .navbar .container-fluid .collapse ul li a {
+  color: rgb(57, 16, 16) !important;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+header .navbar .container-fluid .collapse ul #sing-out {
+  position: absolute;
+  right: 0;
+}
+
+.login {
+  width: 100%;
+  height: 100%;
+  padding-top: 200px;
+}
+.login .intruction {
+  width: 100%;
+  height: 100%;
+  padding-left: 40px;
+  padding-top: 50px;
+}
+.login .intruction .downarrow {
+  padding-left: 20px;
+}
+.login .intruction .downarrow .bi-arrow-down-circle-fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.login .intruction .downarrow .bi-arrow-up-circle-fill {
+  display: none;
+  cursor: pointer;
+}
+.login .intruction .instruct {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  font-weight: 900;
+  padding-top: 30px;
+  display: none;
+}
+.login .intruction .instruct .intuctionkub {
+  width: 20%;
+  height: 100%;
+  box-shadow: 12px 12px 20px 2px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  gap: 15px;
+  border-radius: 8px;
+}
+.login .intruction .instruct .intuctionkub .intuctiontext {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 14px;
+  padding-left: 15px;
+}
+.login .intruction .instruct .intuctionkub .intuctiontext .head_text {
+  color: red;
+}
+.login .form {
+  width: 35%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 8px;
+  box-shadow: 12px 12px 20px 2px black;
+  gap: 70px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: white;
+  margin-bottom: 40px;
+}
+.login .form .register {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-weight: bold;
+  color: rgb(2, 37, 89);
+  text-align: center;
+}
+.login .form input {
+  width: 90%;
+  height: 50px;
+  margin: auto;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid;
+  transition: 2s;
+}
+.login .form a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+.login .form a .btn {
+  width: 200px;
+  height: 70px;
+  margin: auto;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid red;
+  color: red;
+  display: none;
+  font-size: 20px;
+}
+.login .form .errmsg {
+  width: 100%;
+  height: 30px;
+  margin: auto;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  margin-left: 50px;
+  color: red;
+  display: none;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  font-family: "Crimson Text", system-ui;
+}
+main .products {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  gap: 40px;
+}
+main .products .product {
+  width: 100%;
+  height: 100%;
+  max-height: 800px;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 0px 30px 0px 30px;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+}
+main .products .product .card {
+  box-shadow: 12px 12px 20px rgb(155, 155, 210);
+}
+main .products .product .card img {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+main .products .product .card .card-title {
+  font-size: 15px;
+  color: rgb(14, 33, 88);
+  width: 100%;
+}
+main .products .product .card-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.Meals {
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+}
+.Meals .search-invetary {
+  width: 100%;
+  height: 100%;
+}
+.Meals .search-invetary .title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: auto;
+  display: flex;
+  font-size: 50px;
+  font-family: "Pathway Gothic One", sans-serif;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  letter-spacing: 10px;
+}
+.Meals .search-invetary .bi-arrow-down-right {
+  margin: auto;
+  display: flex;
+  position: relative;
+  right: 50px;
+  top: 20px;
+  fill: rgb(156, 20, 13);
+}
+.Meals .search-invetary .search-container {
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+}
+.Meals .search-invetary .search-container #search_input {
+  width: 40%;
+  height: 55px;
+  margin: auto;
+  display: flex;
+  border: none;
+  border: 1.5px solid orange;
+  outline: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+.Meals .meal-display {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  max-width: 80%;
+  margin: auto;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.Meals .meal-display #reservation {
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+}
+.Meals .meal-display #reservation a {
+  color: white;
+  text-decoration: none;
+}
+.Meals .meal-display .meal_card {
+  width: 90%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  border-radius: 1rem;
+  box-shadow: 0 4px 21px -12px rgb(0, 0, 0);
+  box-sizing: border-box;
+  padding-bottom: 30px;
+}
+.Meals .meal-display .meal_card .image {
+  width: 100%;
+  margin: auto;
+}
+.Meals .meal-display .meal_card .image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+.Meals .meal-display .meal_card .content {
+  width: 100%;
+  font-size: 15px;
+  color: red;
+  gap: 10px;
+  padding-left: 10px;
+}
+.Meals .meal-display .meal_card .content h3 {
+  padding-top: 25px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Pathway Gothic One", sans-serif;
+  color: black;
+  opacity: 0.8;
+  font-weight: bold;
+}
+.Meals .meal-display .meal_card .content h3 span {
+  padding-left: 10px;
+  color: black;
+  font-weight: 300;
+  opacity: 1;
+}
+
+footer {
+  width: 100%;
+  height: 100% !important;
+  background-color: black;
+  color: white;
+  font-family: "Crimson Text", system-ui !important;
+  margin-top: 100px;
+  padding: 10px;
+}
+footer .section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 80px;
+}
+footer .section div {
+  margin: auto;
+  gap: 15px;
+}
+footer .section div .head {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  align-items: center;
+  padding-top: 10px;
+}
+footer .section div .sec_text {
+  padding-top: 40px;
+  font-size: 18px;
+  padding: 7px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+footer .line {
+  width: 80%;
+  height: 2px;
+  display: block;
+  background-color: white;
+  margin: auto;
+  position: relative;
+  top: 20%;
+}
+footer .socilas {
+  width: 100%;
+  height: 110px;
+  padding-top: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+footer .socilas a {
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.main_two {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px;
+}
+.main_two .clock {
+  width: 100%;
+  padding-top: 200px;
+}
+.main_two .clock #date {
+  width: 100%;
+  margin: auto;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+}
+.main_two .clock #time {
+  max-width: 100%;
+  margin: auto;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+  letter-spacing: 3.5rem;
+  text-align: center;
+}
+.main_two #sectionofreservation {
+  padding-top: 200px;
+  font-family: "Crimson Text", system-ui;
+}
+.main_two #sectionofreservation .col-md-6 {
+  width: 70% !important;
+}
+.main_two #sectionofreservation h2 {
+  padding-bottom: 40px;
+}
+.main_two #sectionofreservation #reservationForm {
+  width: 100%;
+  height: 90%;
+  box-shadow: 0 6px 12px 9px rgb(128, 124, 124);
+  border-radius: 8px;
+}
+.main_two #sectionofreservation #reservationForm .form-group {
+  padding: 10px 15px;
+}
+.main_two #sectionofreservation #reservationForm .form-group input {
+  height: 50px !important;
+}
+.main_two #sectionofreservation #reservationForm #btn {
+  margin-top: 30px;
+  width: 50% !important;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
